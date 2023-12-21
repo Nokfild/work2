@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ggwp.sel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<header>
+<div class="Logo">
+<h1>GGWP</h1>
+</div>
+<div class="Top_menu">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="buy.html">Buy</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</ul>
+</div>
+</header>
+<body>
+    <div class="contacts_pad">
+        <h1  class="contacts_pad_header">Контактная информация</h1>
+        <div class="contacts_info">
+			+7(499)999-99-99
+		</div>
+        <div class="contacts_info">
+			supportggwp@gmail.com
+		</div>
+		<div class="contacts_info">
+			ВКонтакте:@ggwpselcom
+		</div>
+		<div class="contacts_info">
+			Telegramm:GGWPsel.net
+		</div>
+    </div>
+    <div class="contacts_pad">
+		<h1 class="contacts_pad_header">Обратная связь</h1>
+		<form class="contacts_pad_form">
+			<input type="text" placeholder="Ваше имя">
+			<input type="text" placeholder="Суть запроса">
+			<input type="button" value="Отправить" onclick="reportSend()">
+		</form>
+	</div>
+<div id="modalbg" class="modal">
+	<div class="modal-content">
+		<div class="modal-header">
+			<span class="close">×</span>
+			<h2>Уведомление</h2>
+		</div>
+
+		<div class="modal-body" id="modalBody">
+		</div>
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
